@@ -1,3 +1,1 @@
-# Hi
-## Welcome to section 543
-### I'm xxx
+This repo is for webdev class.
