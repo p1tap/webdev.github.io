@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script> 
+</head>
+<body>
+    Price <input type="number" id="price" placeholder="Enter price"> <br>
+    Discount <input type="number" id="Discount" placeholder="Enter Discount"> <br>
+    <button onclick="calculate()">Calculate Total</button><br>
+    <span id="vat">VAT: </span><br>
+    <span id="result">Total after Discount: </span>
+    <button onclick="window.location.href = '/index.html';">Back Home</button>
+</body>
+<script>
+    function calculate() {
+        var price = $('#price').val();
+        var vat = price * 0.07; //  VAT is 7%
+        var discountedPrice =  $('#price').val() - $('#Discount').val();
+        $('#vat').html('Discounted Price : ' + discountedPrice.toFixed(2));
+        $('#result').html('VAT : ' + vat.toFixed(2));
+    }
+</script>
+</html>
