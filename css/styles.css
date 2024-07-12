@@ -11,6 +11,7 @@
   border: none;
   cursor: pointer;
   display: inline-block;
+  padding-buttom: 10px;
 }
 
 .big-button:hover {
