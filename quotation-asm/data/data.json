@@ -1,0 +1,26 @@
+[
+  {
+      "quantity": 1.5,
+      "description": "Window Wiper",
+      "unitPrice": 900.00,
+      "amount": 1450.00
+  },
+  {
+      "quantity": 1,
+      "description": "Tire",
+      "unitPrice": 450.00,
+      "amount": 2000.00
+  },
+  {
+      "quantity": 1,
+      "description": "Luxury Cleaning Cloth",
+      "unitPrice": 100.00,
+      "amount": 200.00
+  },
+  {
+      "quantity": 1,
+      "description": "Car Fuel Tank",
+      "unitPrice": 200.00,
+      "amount": 600.00
+  }
+]
